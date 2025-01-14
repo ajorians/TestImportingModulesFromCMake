@@ -1,5 +1,3 @@
-//#include <MathLib/MathLib.h>
-
 export module MathLib;
 
 export namespace MathLib

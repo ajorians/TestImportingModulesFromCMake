@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <MathLib/MathLib.h>
+import MathLib;
 
 int main()
 {

@@ -1,8 +1,17 @@
-#include <MathLib/MathLib.h>
+//#include <MathLib/MathLib.h>
 
-using namespace MathLib;
+export module MathLib;
 
-int Addition::Add(int a, int b)
+export namespace MathLib
 {
-   return a + b + 123;
+   export class Addition
+   {
+   public:
+      int Add(int a, int b);
+   };
+
+   int Addition::Add(int a, int b)
+   {
+      return a + b + 123;
+   }
 }
